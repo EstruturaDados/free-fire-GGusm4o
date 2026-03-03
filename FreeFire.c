@@ -42,7 +42,6 @@ int main() {
 
     // 4. Ordenar os itens por critério (nome, tipo, prioridade)
     // 5. Realizar busca binária por nome
-    // 0. Sair
 
     // A estrutura switch trata cada opção chamando a função correspondente.
     // A ordenação e busca binária exigem que os dados estejam bem organizados.
@@ -74,6 +73,7 @@ int main() {
                 buscarItem(mochila, totalItens);
                 break;
             }
+            // 0. Sair
             case 0:
                 printf("\nFechando a mochila...\n");
                 break;
